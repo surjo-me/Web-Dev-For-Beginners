@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Web Dev for Beginners</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Trial Site</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+   <link rel="icon" href="Images/icon-modified.png">
+</head>
 <body>
-  <div id="app"></div>
+    <div class="top">
+        <img class="top-cloud" src="Images/cloud.png">
+        <div  data-aos="zoom-in-up">
+        <h1 class="title">I'm Sam</h1>
+        <p class="sub-title">a <strong class="pro">pro</strong>grammer</p></div>
+        <img class="bottom-cloud" src="Images/cloud.png">
+        <img class="mountain" src="Images/mountain.png">
+</div>
+<div class="middle-container">
+  <div class="profile">
+      <img class="dp" src="Images/ken.png" alt="kenny" height="150px" width="150px">
+      <h2>
+          Hello
+      </h2>
+      <p>I am an Web Developer, Programmer, Designer, and I'm also a presentation specialist.  </p>
+      </div>
+        <hr>
+
+  <div class="skills">
+
+  
+  <h2 >Acquired Skills</h2>
+  <div data-aos="zoom-in-up" class="skill-row">
+      <img class="code-img" src="gifs/scroll.gif" alt="" >
+  <h3>Development</h3>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam recusandae illum laudantium nulla? Dolore est minus architecto placeat, assumenda recusandae libero animi enim officia vitae porro amet sint maxime! Necessitatibus.</p>
+  </div>
+
+  <div data-aos="fade-right" class="skill-row">
+      <img class="code-img1" src="gifs/switch-slides.gif" alt="" >
+  <h3 id="skill-h">Presentation</h3>
+  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate voluptatibus laborum veritatis numquam totam quibusdam accusantium. Doloribus iste laborum molestias necessitatibus provident fuga, dignissimos consequuntur quia iusto unde delectus.
+  </p>
+  </div>
+  </div>
+  <hr>
+  <div  data-aos="fade-up" class="contact">
+  <h2>Get In Touch</h2>
+  <h3>lorem ipsum</h3>
+  <p class="contact-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos nisi dolorem deleniti quis quas a minima incidunt explicabo minus aut, labore tempora autem dolores corporis quo facilis doloribus earum?</p>
+  <p data-aos="slide-up"><a class="btn" href="mailto:subham0422@gmail.com">CONTACT ME</a></p>
+   </div>
+  </div>
+
+  <div class="bottom-container">
+      <b>
+      <a class="footer-link" href="https://www.linkedin.com/subham-bhadra">LinkedIn</a>
+      <a class="footer-link" href="https://www.twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.instagram.com/subham0422">Instagram</a></b>
+      <p class="cr">© 2021 Subham Bhadra</p>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    window.$docsify = {
-      name: 'Web Development for Beginners: A Curriculum',
-      repo: 'https://github.com/microsoft/Web-Dev-For-Beginners',
-      relativePath: true,
-      auto2top: false,
-    }
+    AOS.init({
+        offset:300,
+    });
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
